@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Employement Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-div">
+        <div id="header">
+      <h3>GENERAL EMPLOYEMENT APPLICATION</h3>
+        </div>
+        <form action="">
+      <div id="personal-info">
+        <table>
+          <tr>
+            <th colspan="3" >Personal Infomation</th>
+          </tr>
+          <tr>
+            <td>Name:<input type="text" name="userdetails" id="name" value=""></td>
+            <td>Date of Birth: <input type="date" name="userdetails" id="dob" value=""></td>
+            <td>Social Security Number : <input type="number" name="userdetails" id="socialsecuritynumber"></td>
+          </tr>
+          <tr>
+            <td colspan="3">Address (Number, Street, Building): <br/> <textarea name="userdetails" id="address" cols="162" rows="3"></textarea></td>
+          </tr>
+          <tr>
+            <td>City : <select style="width:80%" name="userdetails" id="city" value="">
+              <option value="" disabled selected>-Select City-</option>
+              <option value="karachi">Karachi</option>
+              <option value="lahore">Lahore</option>
+              <option value="multan">Multan</option>
+              <option value="quetta">Quetta</option>
+              <option value="peshawar">Peshawar</option>
+            </select></td>
+            <td>Street: <input type="text" name="userdetails" id="street" value="" ></td>
+            <td>Zip code : <input type="number" name="userdetails" value=""></td>
+          </tr>
+          <tr>
+            <td>Phone no : <input type="number" name="userdetails" value=""></td>
+            <td>Residence no : <input type="number" name="userdetails" value=""></td>
+            <td>E-mail : <input type="email" name="userdetails" value=""></td>
+          </tr>
+          <tr>
+            <td colspan="3">Do you have ever been conviced of a crime other than a minor incident ? <input type="radio" value="yes">Yes <input type="radio" checked>No <br /> If Yes, Please explain : <textarea cols="30" rows="1" value="" placeholder="Explain here"></textarea> <br /> Not applicable <br /> <br /> <br /></td>
+          </tr>
+        </table>
+      </div>
+      <div id="desired-employement">
+        <table>
+            <tr>
+                <th colspan="4">Desired Employement</th>
+            </tr>
+            <tr>
+                <td>Employement Type <br/> <label> <input type="checkbox" name="emp-type" value="full-time"> Full Time </label> <label><input type="checkbox" name="emp-type" value="part-time"> Part Time</label></td>
+                <td>Position Applying For <br /> <select name="apply-for" >
+                    <option disabled selected>-Select-</option>
+                    <option value="Graphic-Designer">Graphic Designer</option>
+                    <option value="Web-dev">Web Developer</option>
+                    <option value="React-Native-Dev">React Native Developer</option>
+                </select></td>
+                <td>Desired Salary in $: <input type="number" name="userdetails" value=""></td>
+                <td>Date You Can Start <br /> <label><input type="date" value="date"></label></td>
+            </tr>
+        </table>
+      </div>
+      <div id="edu">
+        <table>
+            <tr>
+                <th colspan="4">EDUCATION (Starting from lastest)</th>
+            </tr>
+            <tr>
+                <td style="background-color: #d3e5e5; text-align: center;">School</td>
+                <td style="background-color: #d3e5e5; text-align: center;">Location</td>
+                <td style="background-color: #d3e5e5; text-align: center;">Position</td>
+                <td style="background-color: #d3e5e5; text-align: center;">Attainment</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4">May we contact your present employer? &nbsp; <label><input type="radio" name="cont-pres-empr" value="yes" checked>Yes</label> <label><input type="radio" name="cont-pres-empr" value="no" >No</label> &nbsp; If No, why? ________________________________ <br />If Yes, name of Supervisor: __________________ <br />Contact No. __________________</td>
+            </tr>
+        </table>
+      </div>
+      <div id="major-skill">
+        <table>
+            <tr>
+                <th>MAJOR SKILLS</th>
+            </tr>
+            <tr>
+                <td> <label><input type="checkbox" name="skills" value="ms-office"> MS Office</label> &nbsp; <label><input type="checkbox" name="skills" value="autocad">AUTOCAD </label>&nbsp; <label><input type="checkbox" name="skills" value="adobeillustrator"> Adobe Illustrator </label> &nbsp; <label> <input type="checkbox" name="skills" value="adobephotoshop"> Adobe Photoshop </label> <label><input type="checkbox" name="skills" value="rendering-pri"> Rendering Pro </label></td>
+                <tr>
+                    <td> If certify that the information contained in this application is accurate and correct. I understand that any omission or erronce may be ground for dismissal. <br /> <br /> <br /> <br /> Signature : __________________ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date : __________________ </td>
+                </tr>
+            </tr>
+        </table>
+      </div>
+      <input type="submit" value="Submit" style="width: 150px; height: auto;" >
+      <input type="reset" value="Reset" style="width: 150px; height: auto;" >
+    </form>  
+    </div>
+    
+    </body>
+    </form>
+  </body>
+</html>
